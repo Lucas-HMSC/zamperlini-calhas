@@ -49,8 +49,122 @@
     </div>
   </nav>
 
-  <main class="container vh-100 d-flex align-items-center justify-content-center">
-    <p class="">Home</p>
+  <main>
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active bg-dark">
+          <picture>
+            <source media="(max-width: 767px)" srcset="assets/images/carousel-mobile-1.png">
+            <img src="assets/images/carousel-desk-1.png" alt="Descrição da imagem" class="d-block mx-auto">
+          </picture>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Qualidade</h1>
+              <p>Produtos premium: calhas e rufos com alta durabilidade, design e eficiência total.</p>
+              <p><a class="btn btn-lg btn-primary" href="galeria.html">Abrir galeria</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item bg-dark">
+          <picture>
+            <source media="(max-width: 767px)" srcset="assets/images/carousel-mobile-2.png">
+            <img src="assets/images/carousel-desk-2.png" alt="Descrição da imagem" class="d-block mx-auto">
+          </picture>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Entrega</h1>
+              <p>Entrega rápida e garantida, direto no seu endereço!</p>
+              <p><a class="btn btn-lg btn-primary" href="galeria.html">Abrir galeria</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item bg-dark">
+          <picture>
+            <source media="(max-width: 767px)" srcset="assets/images/carousel-mobile-3.png">
+            <img src="assets/images/carousel-desk-3.png" alt="Descrição da imagem" class="d-block mx-auto">
+          </picture>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Galpão</h1>
+              <p>Galpão amplo e moderno, com estrutura robusta e alta eficiência.</p>
+              <p><a class="btn btn-lg btn-primary" href="galeria.html">Abrir galeria</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+    <div class="container marketing">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="assets/images/heading-1.png" alt="">
+          <h2 class="fw-normal pt-2">Calhas</h2>
+          <p>Calhas são canais de drenagem que coletam e conduzem a água da chuva, prevenindo infiltrações.</p>
+          <p><a class="btn btn-secondary" href="produtos.html">Ver detalhes &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img src="assets/images/heading-2.png" alt="">
+          <h2 class="fw-normal pt-2">Rufos</h2>
+          <p>Rufos são peças metálicas que vedam e protegem as junções da cobertura, evitando infiltrações e umidade.</p>
+          <p><a class="btn btn-secondary" href="produtos.html">Ver detalhes &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img src="assets/images/heading-3.png" alt="">
+          <h2 class="fw-normal pt-2">Dutos</h2>
+          <p>Dutos são canais que transportam ar ou fluidos, assegurando a circulação e a integridade do sistema.</p>
+          <p><a class="btn btn-secondary" href="produtos.html">Ver detalhes &raquo;</a></p>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Instalação sob medida</h2>
+          <p class="lead">Planejamento e instalação sob medida de calhas, rufos, dutos e coifas: soluções integradas, com precisão, eficiência e qualidade superior.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="assets/images/services-1.png" alt="" class="d-block w-100">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Fabricação própria</h2>
+          <p class="lead">Fabricação própria com tecnologia avançada, garantindo produtos personalizados que unem inovação, rigor técnico e alta qualidade.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="assets/images/services-2.png" alt="" class="d-block w-100">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Materiais de alta qualidade</span></h2>
+          <p class="lead">Materiais de alta qualidade, criteriosamente selecionados para oferecer resistência, durabilidade e desempenho superior.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="assets/images/services-3.png" alt="" class="d-block w-100">
+        </div>
+      </div>  
+    </div>
   </main>
 
   <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
