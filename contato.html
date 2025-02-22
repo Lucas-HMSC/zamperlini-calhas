@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="Lucas-HMSC">
-  <title>Sobre - Zamperlini Calhas</title>
+  <title>Contato - Zamperlini Calhas</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/product/">
 
@@ -48,8 +48,58 @@
     </div>
   </nav>
 
-  <main class="container vh-100 d-flex align-items-center justify-content-center">
-    <p class="">Contato</p>
+  <main class="container">
+    <div class="row flex-lg-row-reverse align-items-center py-5">
+      <div class="col-12 col-sm-6">
+        <img src="assets/images/instagram-hero.png" class="d-block img-fluid" alt="Bootstrap Themes" width="700" height="500">
+      </div>
+      <div class="col-12 col-sm-6 pt-4 pt-sm-0">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Instagram</h1>
+        <p class="lead">Explore nosso Instagram e mergulhe no universo da excelência em calhas: novidades, dicas e bastidores exclusivos.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" onclick="openLinkOnNewTab('https://www.instagram.com/zamperlinicalhas')">Abrir</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row flex-lg-row align-items-center py-sm-5">
+      <div class="col-12 col-sm-6">
+        <img src="assets/images/facebook-hero.png" class="d-block img-fluid" alt="Bootstrap Themes" width="700" height="500">
+      </div>
+      <div class="col-12 col-sm-6 pt-4 pt-sm-0">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Facebook</h1>
+        <p class="lead">Acesse nosso Facebook e explore o universo das calhas: conteúdos exclusivos, dicas e promoções.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" onclick="openLinkOnNewTab('https://www.facebook.com/zamperlinicalhas')">Abrir</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row align-items-center g-lg-5 py-5">
+      <div class="col-12 col-sm-6 text-center text-lg-start">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Solicite um orçamento</h1>
+        <p class="lead">Solicite agora mesmo um orçamento diretamente pelo nosso WhatsApp.</p>
+      </div>
+      <div class="col-12 col-sm-6 mx-auto">
+        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary needs-validation" novalidate>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="name" placeholder="Nome Sobrenome" required>
+            <label for="name">Nome Sobrenome</label>
+            <div class="invalid-feedback">
+              Por favor, digite seu nome.
+            </div>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea class="form-control" aria-label="Mensagem" id="message" required></textarea>
+            <label for="message">Mensagem</label>
+            <div class="invalid-feedback">
+              Por favor, digite sua mensagem.
+            </div>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit" onclick="sendWhatsAppMessage()">Enviar</button>
+        </form>
+      </div>
+    </div>
   </main>
 
   <div class="bg-dark py-1">
@@ -70,5 +120,6 @@
   </div>
 
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/general.js"></script>
 </body>
 </html>
